@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6つの質問に答えるだけで、あなたの価値観を明らかに！</title>
+    <!-- Bootstrap CSSを読み込み -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #fefefe;
+        }
+        #header {
+            background-color: #fefefe;
+            color: #4d26d9;
+            text-align: center;
+            padding: 20px;
+        }
+        #menu-bar {
+            background-color: #fefefe;
+            color: #4d26d9;
+            padding: 10px;
+        }
+        #content {
+            background-color: #fefefe;
+            color: #4d26d9;
+            padding: 20px;
+            font-size: 24px;
+            line-hight:1.7;
+        }
+        #footer {
+            background-color: #fefefe;
+            text-align: center;
+            padding: 10px;
+        }
+        .countdown {
+            font-size: 24px;
+            color: #4d26d9;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>ChatGPTであなたの価値観が明らかに！</h1>
+    </div>
+    <div id="menu-bar">
+
+    </div>
+    <div id="content" class="container">
+        <!-- ここに質問に関するコンテンツを追加 -->
+
+        <div class="container">
+            <hr>
+                    以下の6つの質問に答えてください。１質問当たり３分以内に、思いついたことをできるだけたくさん書き出してください。
+            <hr>
+            <h2>質問1：尊敬する人とその理由。</h2>
+            <div class="alert alert-primary" role="alert">
+                【回答例】<br>
+                織田信長。今までの常識を壊し、新しい戦い方、政策を実施したから。<br>
+                母。いつも応援をしてくれるから。<br>
+                ・・・・<br>
+                ・・・<br>
+                ・・<br>
+            </div>
+            準備はいいかな？では＜回答スタート＞を押して、３分間でできるだけ書こう！<br>
+
+            <button id="startQ1" class="btn btn-primary">回答スタート</button>
+            <span class="countdown" id="countdownQ1">180</span>秒
+            <br>
+            <textarea id="Q1" rows="15" class="form-control" placeholder="質問1の回答を入力してください"></textarea>
+            
+
+            <hr>
+            <h2>質問2：幼いころ、思春期にあった大きな影響を与えた経験</h2>
+
+            <div class="alert alert-primary" role="alert">
+                【回答例】<br>
+                転校が多かったため、どこでも生きていけると思っている。<br>
+                持病があるため、人生悔いのないよう、やりたいことをやりたい。<br>
+                ・・・・<br>
+                ・・・<br>
+                ・・<br>
+            </div>
+            準備はいいかな？では＜回答スタート＞を押して、３分間でできるだけ書こう！<br>
+
+
+
+            <button id="startQ2" class="btn btn-primary">回答スタート</button>
+            <span class="countdown" id="countdownQ2">180</span>秒
+            <textarea id="Q2" rows="15" class="form-control" placeholder="質問2の回答を入力してください"></textarea>
+
+            <hr>
+            <h2>質問3：今の社会に足りないものは？</h2>
+
+            <div class="alert alert-primary" role="alert">
+                「こういう未来だったらいいのに」を思い浮かべて、今の世の中に対する不満を書いてください。<br>
+                【回答例】<br>
+                子供がもっとのびのびできる。<br>
+                年をとってもチャレンジできる。<br>
+                ・・・・<br>
+                ・・・<br>
+                ・・<br>
+            </div>
+            準備はいいかな？では＜回答スタート＞を押して、３分間でできるだけ書こう！<br>
+
+
+
+            <button id="startQ3" class="btn btn-primary">回答スタート</button>
+            <span class="countdown" id="countdownQ3">180</span>秒
+            <textarea id="Q3" rows="15" class="form-control" placeholder="質問3の回答を入力してください"></textarea>
+
+
+            <hr>
+            <h2>質問4：他人に助言するとき、一番伝えたいことは</h2>
+
+            <div class="alert alert-primary" role="alert">
+                他人を、後輩、同僚、親友、子供と設定して考えましょう。<br>
+                【回答例】<br>
+                トライアンドエラーでやろう。<br>
+                まずはチャレンジ。<br>
+                ・・・・<br>
+                ・・・<br>
+                ・・<br>
+            </div>
+            準備はいいかな？では＜回答スタート＞を押して、３分間でできるだけ書こう！<br>
+
+            <button id="startQ4" class="btn btn-primary">回答スタート</button>
+            <span class="countdown" id="countdownQ4">180</span>秒
+            <textarea id="Q4" rows="15" class="form-control" placeholder="質問4の回答を入力してください"></textarea>
+
+
+            <hr>
+            <h2>質問5：他人に助言するとき、絶対に伝えたくないことは。</h2>
+
+            <div class="alert alert-primary" role="alert">
+                他人を、後輩、同僚、親友、子供と設定して考えましょう。<br>
+                絶対に”口にしたくない”助言です。<br>
+                【回答例】<br>
+                皆の顔を立てよう。<br>
+                よくよく考えて行動しよう。<br>
+                ・・・・<br>
+                ・・・<br>
+                ・・<br>
+            </div>
+            準備はいいかな？では＜回答スタート＞を押して、３分間でできるだけ書こう！<br>
+
+
+            <button id="startQ5" class="btn btn-primary">回答スタート</button>
+            <span class="countdown" id="countdownQ5">180</span>秒
+            <textarea id="Q5" rows="15" class="form-control" placeholder="質問5の回答を入力してください"></textarea>
+
+            <hr>
+            <h2>質問6：あなたが、周りの人に価値を提供しようとした経験、最低10個書こう！</h2>
+
+            <div class="alert alert-primary" role="alert">
+                どんな些細な事でもよいです。あなたは周りの人に貢献したことはなんでしょうか。<br>
+                【回答例】<br>
+                弟に勉強を教えた。<br>
+                ボランティアで外国人のガイドをした。<br>
+                壊れたものを修理した。<br>
+            </div>
+            準備はいいかな？では＜回答スタート＞を押して、３分間で10個書き出そう！<br>
+
+
+            <button id="startQ6" class="btn btn-primary">回答スタート</button>
+            <span class="countdown" id="countdownQ6">180</span>秒
+            <textarea id="Q6" rows="15" class="form-control" placeholder="質問6の回答を入力してください"></textarea>
+
+
+            <hr>
+            <h2>お疲れさまでした！</h2>
+
+            <div class="alert alert-primary" role="alert">
+                    [プロンプト生成]ボタンを押して、[プロンプトをコピー]ボタンを押しましょう。
+            </div>
+
+
+            <button id="generatePrompt" class="btn btn-success btn-lg mt-3">プロンプト生成</button>
+            <!-- ボタンを追加 -->
+            <button id="copyPrompt" class="btn btn-lg btn-info mt-3">プロンプトをコピー</button>
+
+            <!-- ボタンを追加 -->
+            <button id="copyPrompt" class="btn btn-lg btn-info mt-3" onclick="window.open('https://chat.openai.com/')">ChatGPT起動</button>
+
+
+            <textarea id="prompt" rows="30" class="form-control mt-3" placeholder="生成されたプロンプトがここに表示されます"></textarea>
+
+        </div>
+
+    </div>
+    <div id="footer">
+        &copy; 2023 質問サイト
+    </div>
+
+    <!-- Bootstrap JSとjQueryを読み込み -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- JavaScriptファイルを読み込み -->
+    <script src="script.js"></script>
+</body>
+</html>
